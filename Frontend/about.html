@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - The Qutab Resturant</title>
+    <meta name="description" content="The Qutab Restaurant - Experience authentic flavors and warm hospitality. Book your table today.">
+<meta property="og:title" content="The Qutab Restaurant">
+<meta property="og:description" content="Experience authentic flavors and warm hospitality at The Qutab Restaurant.">
+<meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+   
+
+    <header>
+        <nav>
+                        <div class="logo">
+                <a href="index.html">The Qutab Resturant</a>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+                <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+                        <button class="theme-toggle" id="themeToggle">🌙</button>
+
+            <div id="google_translate_element"></div>
+<button class="lang-reset-btn" onclick="resetToEnglish()">EN</button>
+        </nav>
+    </header>
+
+    <section class="about-page">
+        <h1>Our Story</h1>
+
+        <div class="about-content">
+           <img src="images/restaurant.jpg" alt="Restaurant interior">
+            <div class="about-text">
+                <p>
+                    The Qutab Resturant was founded with a simple mission: to bring people together
+                    through great food and warm hospitality. What started as a small family
+                    kitchen has grown into a beloved dining destination.
+                </p>
+                <p>
+                    Every dish on our menu is crafted using fresh, locally-sourced ingredients,
+                    prepared with techniques passed down through generations. Our team is
+                    passionate about creating an experience, not just a meal.
+                </p>
+            </div>
+        </div>
+
+        <div class="about-values">
+            <div class="value-card">
+                <h3>Fresh Ingredients</h3>
+                <p>Sourced daily from local farms and markets.</p>
+            </div>
+
+            <div class="value-card">
+                <h3>Warm Hospitality</h3>
+                <p>Every guest is treated like family.</p>
+            </div>
+
+            <div class="value-card">
+                <h3>Passion for Craft</h3>
+                <p>Every dish made with care and tradition.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>The Qutab Resturant</h3>
+                <p>City ABC, Main GT Road</p>
+                <p>Open: Mon - Sun, 11am - 11pm</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@qutabshah.com</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <p>Facebook | Instagram | Twitter</p>
+            </div>
+        </div>
+
+        <p class="footer-bottom">&copy; 2026 The Qutab Resturant Restaurant. All rights reserved.</p>
+    </footer>
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+        <script src="js/main.js"></script>
+
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: "en" },
+                "google_translate_element"
+            );
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

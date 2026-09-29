@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Qutab Resturant Restaurant</title>
+    <meta name="description" content="The Qutab Restaurant - Experience authentic flavors and warm hospitality. Book your table today.">
+<meta property="og:title" content="The Qutab Restaurant">
+<meta property="og:description" content="Experience authentic flavors and warm hospitality at The Qutab Restaurant.">
+<meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+   
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">The Qutab Resturant</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+             <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+             <button class="theme-toggle" id="themeToggle">🌙</button>
+
+            <div id="google_translate_element"></div>
+            <button class="lang-reset-btn" onclick="resetToEnglish()">EN</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to The Qutab Resturant</h1>
+        <p>Authentic flavors, crafted with passion.</p>
+        <a href="reservations.html" class="btn">Book a Table</a>
+    </section>
+        <section class="about-preview">
+        <h2>Our Story</h2>
+        <p>
+            At The Qutab Resturant, we bring together fresh ingredients, traditional recipes, 
+            and a warm atmosphere to create an unforgettable dining experience for every guest.
+        </p>
+        <a href="about.html" class="link-more">Read More →</a>
+    </section>
+        <section class="featured-dishes">
+        <h2>Featured Dishes</h2>
+
+                <div class="dish-grid">
+            <div class="dish-card">
+                <img src="images/salmon.jpg" alt="Grilled Salmon">
+                <h3>Grilled Salmon</h3>
+                <p>$18.99</p>
+            </div>
+
+            <div class="dish-card">
+                <img src="images/pasta.jpg" alt="Truffle Pasta">
+                <h3>Truffle Pasta</h3>
+                <p>$16.50</p>
+            </div>
+
+            <div class="dish-card">
+                <img src="images/tiramisu.jpg" alt="Classic Tiramisu">
+                <h3>Classic Tiramisu</h3>
+                <p>$8.99</p>
+            </div>
+        </div>
+    </section>
+        <section class="testimonials">
+        <h2>What Our Guests Say</h2>
+
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"The best dining experience I've had in years. The salmon was cooked to perfection and the service was impeccable."</p>
+                <p class="testimonial-author">— Ahmed Khan</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">"A hidden gem! Warm atmosphere, delicious food, and attentive staff. We'll definitely be back."</p>
+                <p class="testimonial-author">— Sara Ali</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">"From the ambiance to the truffle pasta, everything was exceptional. Highly recommend for special occasions."</p>
+                <p class="testimonial-author">— Bilal Ahmed</p>
+            </div>
+        </div>
+    </section>
+        <section class="cta">
+        <h2>Ready to Experience The Qutab Resturant?</h2>
+        <p>Reserve your table today and enjoy an unforgettable evening.</p>
+        <a href="reservations.html" class="btn">Book a Table</a>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>The Qutab Resturant</h3>
+                <p>City ABC, Main GT Road</p>
+                <p>Open: Mon - Sun, 11am - 11pm</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@qutabshah.com</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <p>Facebook | Instagram | Twitter</p>
+            </div>
+        </div>
+
+        <p class="footer-bottom">&copy; 2026 The Qutab Resturant Restaurant. All rights reserved.</p>
+    </footer>
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+        <script src="js/main.js"></script>
+
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: "en" },
+                "google_translate_element"
+            );
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
